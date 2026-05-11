@@ -7,6 +7,7 @@ bool board::isCheckMate(string color)
     if (!ischeck(color))
     {
         return false;
+        cout << "a";
     }
 
     for (int i = 0; i < 8; i++)
