@@ -5,7 +5,7 @@ using namespace std;
 bool isCheckMate(string color);
 
 bool wouldCauseCheck(int oldRow,
-    int oldCol,
+    int oldCol;
     int newRow,
     int newCol);
 
